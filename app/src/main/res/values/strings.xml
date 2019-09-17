@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Student Recognizer</string>
+    <string name="Login_Auth">jdbc:mysql://localhost:3306/Login_Auth</string>
+    <string name="title_activity_student_info">StudentInfoActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="email">Email</string>
+</resources>
