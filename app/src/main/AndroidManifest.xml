@@ -11,10 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".AddInformation"></activity>
         <activity
             android:name=".ReportActivity"
             android:label="@string/title_activity_report"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".StudentInfoActivity"
             android:label="@string/title_activity_student_info"
@@ -31,8 +32,8 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.SEND_SMS" />
 
 </manifest>
