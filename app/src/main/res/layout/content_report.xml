@@ -13,13 +13,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Report To GFM"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="171dp"
         tools:layout_editor_absoluteY="51dp"
         tools:ignore="HardcodedText"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -31,13 +30,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Select Location"
-        android:textSize="24sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="171dp"
         tools:layout_editor_absoluteY="51dp"
         tools:ignore="HardcodedText"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.080"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -47,10 +45,10 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="70dp"
         android:id="@+id/radioGroup"
+        android:gravity="center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.790"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -59,9 +57,9 @@
 
 
     <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="55dp"
+        android:id="@+id/radioButton1"
+        android:layout_width="190sp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:checked="false"
         android:text="Library"
@@ -70,22 +68,21 @@
         tools:layout_editor_absoluteX="245dp"
         tools:layout_editor_absoluteY="101dp" />
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.13"
-        android:checked="false"
-        android:text="Ground"
-        android:textSize="25sp"
-        tools:ignore="HardcodedText"
-        tools:layout_editor_absoluteX="245dp"
-        tools:layout_editor_absoluteY="168dp" />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="190sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.13"
+            android:checked="false"
+            android:text="Ground"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText"
+            tools:layout_editor_absoluteX="245dp" />
 
         <RadioButton
             android:id="@+id/radioButton3"
-            android:layout_width="wrap_content"
+            android:layout_width="190sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.13"
@@ -94,8 +91,20 @@
             android:textSize="25sp"
             tools:layout_editor_absoluteX="245dp"
             tools:layout_editor_absoluteY="168dp"
-            tools:ignore="HardcodedText"
-            />
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="190sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.13"
+            android:checked="false"
+            android:text="Canteen"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="168dp"
+            tools:ignore="HardcodedText" />
     </RadioGroup>
 
     <Button
@@ -105,14 +114,13 @@
         android:text="Send Message"
         android:textSize="25sp"
         android:onClick="btn_send"
+        android:gravity="center_horizontal"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="147dp"
+        tools:layout_editor_absoluteY="247dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468"
         tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

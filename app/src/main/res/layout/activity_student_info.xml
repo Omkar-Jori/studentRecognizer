@@ -12,6 +12,7 @@
         android:layout_height="80sp"
         android:layout_marginStart="35sp"
         android:text="Student Details"
+        android:layout_gravity="center_horizontal"
         android:textSize="40sp"
         android:gravity="center"
         android:textStyle="bold" />
@@ -20,18 +21,20 @@
 
     <TextView
         android:id="@+id/zprnView"
-        android:layout_width="200sp"
-        android:layout_height="100sp"
-        android:layout_marginStart="220sp"
-        android:layout_marginTop="80sp"
+        android:layout_width="240sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="170sp"
+        android:layout_marginTop="70sp"
         android:text="ZPRN"
+        android:gravity="center"
         android:textSize="30sp" />
     <TextView
         android:layout_width="200sp"
-        android:layout_height="100sp"
+        android:layout_height="70sp"
         android:text="ZPRN : "
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="80sp"
+        android:gravity="center"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="70sp"
         android:textSize="35sp"
         android:textStyle="bold"
         />
@@ -41,19 +44,21 @@
 
     <TextView
         android:layout_width="200sp"
-        android:layout_height="100sp"
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="120sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="110sp"
         android:text="Name :"
+        android:gravity="center"
         android:textStyle="bold"
         android:textSize="35sp" />
     <TextView
         android:id="@+id/nameView"
-        android:layout_width="200sp"
-        android:layout_height="100sp"
-        android:layout_marginStart="190sp"
-        android:layout_marginTop="125sp"
+        android:layout_width="240sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="170sp"
+        android:layout_marginTop="110sp"
         android:text="Name"
+        android:gravity="center"
         android:textSize="30sp" />
 
 
@@ -61,18 +66,19 @@
 
     <TextView
         android:layout_width="200sp"
-        android:layout_height="100sp"
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="170sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="155sp"
         android:textStyle="bold"
+        android:gravity="center"
         android:text="Division :"
         android:textSize="35sp" />
     <TextView
         android:id="@+id/divView"
-        android:layout_width="200sp"
-        android:layout_height="100sp"
+        android:layout_width="240sp"
+        android:layout_height="70sp"
         android:layout_marginStart="170sp"
-        android:layout_marginTop="145sp"
+        android:layout_marginTop="155sp"
         android:gravity="center"
         android:text="Division"
         android:textSize="30sp" />
@@ -82,37 +88,38 @@
 
     <TextView
         android:layout_width="200sp"
-        android:layout_height="100sp"
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="220sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="200sp"
         android:text="Batch :"
+        android:gravity="center"
         android:textStyle="bold"
         android:textSize="35sp" />
     <TextView
         android:id="@+id/batchView"
-        android:layout_width="200sp"
-        android:layout_height="100sp"
+        android:layout_width="240sp"
+        android:layout_height="70sp"
         android:layout_marginStart="170sp"
-        android:layout_marginTop="195sp"
+        android:layout_marginTop="200sp"
         android:gravity="center"
         android:text="Batch"
         android:textSize="30sp" />
 
 
     <TextView
-        android:layout_width="210dp"
-        android:layout_height="100sp"
+        android:layout_width="200dp"
+        android:layout_height="70sp"
         android:layout_marginStart="1sp"
-        android:layout_marginTop="240sp"
+        android:layout_marginTop="250sp"
         android:gravity="center"
         android:text="Department :"
         android:textSize="35sp"
         android:textStyle="bold" />
     <TextView
         android:id="@+id/departmentView"
-        android:layout_width="160sp"
-        android:layout_height="100sp"
-        android:layout_marginStart="205sp"
+        android:layout_width="240sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="170sp"
         android:layout_marginTop="240sp"
         android:gravity="center"
         android:text="Dept"
@@ -122,12 +129,12 @@
 
 
     <TextView
-        android:layout_width="300sp"
+        android:layout_width="280sp"
         android:layout_height="80sp"
-        android:layout_marginStart="35sp"
+        android:layout_gravity="center_horizontal"
         android:text="Current Details"
-        android:layout_marginTop="320sp"
-        android:textSize="40sp"
+        android:layout_marginTop="300sp"
+        android:textSize="30sp"
         android:gravity="center"
         android:textStyle="bold"
         />
@@ -135,15 +142,85 @@
     <TextView
         android:layout_width="300sp"
         android:layout_height="70sp"
-        android:layout_marginStart="40sp"
+        android:layout_marginStart="35sp"
         android:id="@+id/day"
         android:text="DayTime"
-        android:layout_marginTop="385sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350sp"
         android:textSize="30sp"
         android:gravity="center"
         android:textStyle="bold"
         />
 
+
+
+    <TextView
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="20sp"
+        android:text="Subject :"
+        android:layout_marginTop="425sp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="240sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="170sp"
+        android:id="@+id/subjectView"
+        android:text="Subject"
+        android:layout_marginTop="425sp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="20sp"
+        android:text="Faculty :"
+        android:layout_marginTop="480sp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="240sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="170sp"
+        android:id="@+id/facultyView"
+        android:text="faculty"
+        android:layout_marginTop="480sp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="20sp"
+        android:text="Room No. :"
+        android:layout_marginTop="540sp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="240sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="170sp"
+        android:id="@+id/roomView"
+        android:text="room"
+        android:layout_marginTop="540sp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
 
     <Button
         android:id="@+id/reportGFM"
