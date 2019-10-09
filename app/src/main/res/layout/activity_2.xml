@@ -25,6 +25,7 @@
         android:layout_height="wrap_content"
         android:text="Scan Barcode"
         android:textSize="25sp"
+        android:onClick="btn_scan"
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="147dp"
         app:layout_constraintBottom_toBottomOf="parent"
